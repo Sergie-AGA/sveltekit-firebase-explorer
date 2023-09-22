@@ -26,6 +26,9 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const PROJECT_ID: string;
+	export const CLIENT_EMAIL: string;
+	export const PRIVATE_KEY: string;
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
 	export const ChocolateyInstall: string;
@@ -39,7 +42,7 @@ declare module '$env/static/private' {
 	export const ComSpec: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const EFC_19380: string;
+	export const EFC_15052: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
@@ -137,6 +140,9 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		PROJECT_ID: string;
+		CLIENT_EMAIL: string;
+		PRIVATE_KEY: string;
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
 		ChocolateyInstall: string;
@@ -150,7 +156,7 @@ declare module '$env/dynamic/private' {
 		ComSpec: string;
 		DriverData: string;
 		EDITOR: string;
-		EFC_19380: string;
+		EFC_15052: string;
 		GIT_ASKPASS: string;
 		HOME: string;
 		HOMEDRIVE: string;
