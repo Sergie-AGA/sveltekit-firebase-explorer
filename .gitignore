@@ -129,3 +129,4 @@ dist
 
 # Firebase
 service-account.json
+firebase-config.js

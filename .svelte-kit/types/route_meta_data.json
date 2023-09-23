@@ -2,5 +2,9 @@
 	"/": [],
 	"/login": [],
 	"/login/photo": [],
-	"/login/username": []
+	"/login/username": [],
+	"/[username]": [
+		"src/routes/[username]/+page.ts"
+	],
+	"/[username]/edit": []
 }
