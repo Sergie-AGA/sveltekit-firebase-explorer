@@ -1,5 +1,5 @@
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase-admin/auth";
+import { getFirestore } from "firebase-admin/firestore";
 import {
   FB_CLIENT_EMAIL,
   FB_PRIVATE_KEY,
@@ -17,7 +17,7 @@ try {
   });
 } catch (err: any) {
   if (!/already exists/u.test(err.message)) {
-    console.error("Firebase admin initialization error", err.stack);
+    console.error("Firebase Admin Error: ", err.stack);
   }
 }
 

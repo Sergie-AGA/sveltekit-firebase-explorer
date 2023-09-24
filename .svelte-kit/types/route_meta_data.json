@@ -1,10 +1,18 @@
 {
 	"/": [],
+	"/api/signin": [
+		"src/routes/api/signin/+server.ts"
+	],
 	"/login": [],
 	"/login/photo": [],
-	"/login/username": [],
+	"/login/username": [
+		"src/routes/login/username/+page.server.ts"
+	],
 	"/[username]": [
 		"src/routes/[username]/+page.ts"
+	],
+	"/[username]/bio": [
+		"src/routes/[username]/bio/+page.server.ts"
 	],
 	"/[username]/edit": []
 }
